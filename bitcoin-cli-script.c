@@ -22,7 +22,7 @@ void yellow () {
   printf("\033[1;33m");
 }
 
-      void reset () {
+void reset () {
   printf("\033[0m");
 }
 
