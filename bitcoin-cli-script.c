@@ -14,18 +14,33 @@
 #include <stdlib.h>
 #include <locale.h>
 
+void red () {
+  printf("\033[1;31m");
+}
+
+void yellow () {
+  printf("\033[1;33m");
+}
+
+      void reset () {
+  printf("\033[0m");
+}
+
 
 int main () {
      setlocale(LC_ALL, "Portuguese_Brasil");
                     char var[100];
                     int menu;
                     char hash[70];
-
+              red();
                 printf("\n----------------------------------------------------\n");
+                yellow();
                 printf("BITCOIN-CLI SCRIPT V1.0\n");
                 printf("Desenvolvido por: @bitcoinander\n");
                 printf("cliente bitcoin-cli\n");
-                printf("------------------------------------------------------\n");
+                red();
+                printf("----------------------------------------------------\n");
+                reset();
                 printf("\n|  MENU  | \n\n");
                 printf(" 1- Ver hash de cabeçalho do bloco mais recente na melhor cadeia de bloco. \n");
                 printf(" 2- Informações sobre o estado atual da cadeia de blocos.\n");
