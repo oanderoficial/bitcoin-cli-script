@@ -1,5 +1,5 @@
 /* BITCOIN-CLI SCRIPT V1.0
-   @bitcoinander
+   @oanderoficial
 */
 
 /*  ____  _ __             _                  ___    _____           _       __ 
