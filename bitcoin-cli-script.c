@@ -41,7 +41,9 @@ int main () {
        red();
        printf("----------------------------------------------------\n");
        reset();
+       
        printf("\n|  MENU  | \n\n");
+       yellow ();
        printf(" 1- Ver hash de cabeçalho do bloco mais recente na melhor cadeia de bloco. \n");
        printf(" 2- Informações sobre o estado atual da cadeia de blocos.\n");
        printf(" 3- Número de blocos na melhor cadeia de blocos local.\n");
@@ -122,3 +124,4 @@ int main () {
         }
           return 0;
         }
+
