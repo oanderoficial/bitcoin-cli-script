@@ -63,19 +63,19 @@ int main () {
        printf("\nVocê escolheu: Ver hash de cabeçalho do bloco mais recente na melhor cadeia de bloco. \n");
        sprintf(var, " bitcoin-cli getbestblockhash ");
        system(var);
-        break;
+       break;
 
        case 2:
        printf("\nVocê escolheu: Informações sobre o estado atual da cadeia de blocos.\n");
        sprintf(var, " bitcoin-cli getblockchaininfo");
        system(var);
-        break;
+       break;
         
        case 3:
        printf("\nVocê escolheu: Número de blocos na melhor cadeia de blocos local.\n");
        sprintf(var, " bitcoin-cli getblockcount ");
        system(var);
-        break;
+       break;
 
        case 4:
        printf("\nVocê escolheu: Obter um cabeçalho de bloco com um hash de cabeçalho específico do banco de dados de bloco local como um objeto JSON ou como um cabeçalho de bloco serializado.\n");
@@ -107,13 +107,13 @@ int main () {
        printf("\nVocê escolheu: Informações sobre o tráfego de rede, incluindo bytes de entrada, saída de bytes e a hora atual.\n");
        sprintf(var, "bitcoin-cli getnettotals");
        system(var);
-        break;        
+       break;        
 
        case 9:
        printf("\nVocê escolheu: Número de conexões com outros nós.\n");
        sprintf(var, "bitcoin-cli getconnectioncount");
        system(var);
-        break;  
+       break;  
 
        case 10:
        printf("\nVocê escolheu: Informações relacionadas à mineração.\n");
